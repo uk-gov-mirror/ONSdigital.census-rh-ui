@@ -52,3 +52,61 @@ The environment variables below must be provided:
 JSON_SECRET_KEYS
 SECRET_KEY
 ```
+
+## Internationalisation
+
+We use flask-babel to do internationalisation.  To extract messages from source, in the project root run the following command.
+
+```
+pipenv run pybabel extract -F babel.cfg -o app/translations/messages.pot .
+```
+
+This will extract messages and place them in the translations/messages.pot file ready for translation.
+
+You should only need to create the language files once.
+
+To create Welsh language files, run the following command
+
+```
+pipenv run pybabel init -i app/translations/messages.pot -d app/translations -l cy
+```
+
+To create the gaelic language files, use the following:
+
+```
+pipenv run pybabel init -i app/translations/messages.pot -d app/translations -l gd
+```
+
+### Getting text translated
+
+Our current language translation service requires a .csv rather than a .po file. To convert a .po file to a .csv you'll need to install the Python translate-toolkit:
+```
+brew install translate-toolkit
+```
+
+To generate the .csv file:
+```
+po2csv app/translations/cy/LC_MESSAGES/messages.po app/translations/static-cy.csv
+```
+
+To convert back to a .po file:
+```
+csv2po app.translations/static-cy.csv app/translations/cy/LC_MESSAGES/messages.po
+```
+
+*Important:* There are some encoding issues when opening the .csv file in Excel. Opening in Google sheets and saving as a .xslx file resolves this.
+
+### Compiling the translations
+
+To compile the language files for use in the application, use the following:
+
+```
+pipenv run pybabel compile -d app/translations
+```
+
+As strings are added to the application, you will need to update but not overwrite the translations for the various languages.
+To update the language strings, use:
+
+```
+pipenv run pybabel update -i app/translations/messages.pot -d app/translations
+```

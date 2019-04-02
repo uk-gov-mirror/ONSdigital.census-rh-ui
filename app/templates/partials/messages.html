@@ -29,15 +29,15 @@
 
         {% if message.type !='ADDRESS_CONFIRMATION_ERROR' %}
           <p></p>
-          Or please call for advice on one of these numbers:
+          {{_("Or please call for advice on one of these numbers:")}}
           <ul class="list list--bare">
-            <li>  0800 141 2021   England
+            <li>  0800 141 2021   {{_("England")}}
             </li>
-            <li>  0800 169 2021   Wales
+            <li>  0800 169 2021   {{_("Wales")}}
             </li>
-            <li>  0800 328 2021   Northern Ireland
+            <li>  0800 328 2021   {{_("Northern Ireland")}}
             </li>
-            <li>  0800 587 2021   Translation
+            <li>  0800 587 2021   {{_("Translation")}}
             </li>
           </ul>
         {% endif %}

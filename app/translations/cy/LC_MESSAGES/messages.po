@@ -1,0 +1,164 @@
+# Welsh translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-04-02 11:04+0100\n"
+"PO-Revision-Date: 2019-04-02 12:50+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/templates/address-confirmation.html:9
+msgid "Is your address correct?"
+msgstr ""
+
+#: app/templates/address-confirmation.html:36
+#: app/templates/address-confirmation.html:45
+msgid "Or"
+msgstr ""
+
+#: app/templates/address-confirmation.html:37
+msgid "Yes, this address is correct"
+msgstr ""
+
+#: app/templates/address-confirmation.html:38
+#: app/templates/address-confirmation.html:47
+msgid "Selecting this will uncheck all other answers"
+msgstr ""
+
+#: app/templates/address-confirmation.html:46
+msgid "No, I need to change this address"
+msgstr ""
+
+#: app/templates/address-confirmation.html:60
+#: app/templates/address-edit.html:92
+msgid "Save and continue"
+msgstr ""
+
+#: app/templates/address-edit.html:22
+msgid "Address Line 1 (Including your house name or number)"
+msgstr ""
+
+#: app/templates/address-edit.html:34
+msgid "Address Line 2"
+msgstr ""
+
+#: app/templates/address-edit.html:45
+msgid "Town/City"
+msgstr ""
+
+#: app/templates/address-edit.html:56
+msgid "County"
+msgstr ""
+
+#: app/templates/address-edit.html:67
+msgid "Postcode"
+msgstr ""
+
+#: app/templates/address-edit.html:78
+msgid "Country"
+msgstr ""
+
+#: app/templates/error.html:8
+msgid "Sorry, something went wrong"
+msgstr ""
+
+#: app/templates/error.html:11
+msgid "We are experiencing some technical problems."
+msgstr ""
+
+#: app/templates/error.html:12
+msgid "Please try again later, or"
+msgstr ""
+
+#: app/templates/error.html:12
+msgid "contact us"
+msgstr ""
+
+#: app/templates/index.html:9
+msgid "Enter your access code"
+msgstr ""
+
+#: app/templates/index.html:22
+msgid "Your 12 character access code is on the letter we sent you"
+msgstr ""
+
+#: app/templates/index.html:25
+msgid "Enter the first four characters of the access code"
+msgstr ""
+
+#: app/templates/index.html:30
+msgid "Enter the next four characters of the access code"
+msgstr ""
+
+#: app/templates/index.html:35
+msgid "Enter the last four characters of the access code"
+msgstr ""
+
+#: app/templates/index.html:51
+msgid "Your information is protected by law and will be kept confidential."
+msgstr ""
+
+#: app/templates/partials/footer.html:5
+msgid "Legal information"
+msgstr ""
+
+#: app/templates/partials/footer.html:11
+msgid "About ONS"
+msgstr ""
+
+#: app/templates/partials/footer.html:17
+msgid "Statistics"
+msgstr ""
+
+#: app/templates/partials/header.html:8
+msgid "Census Dress Rehearsal 2019 (Banner TBD)"
+msgstr ""
+
+#: app/templates/partials/messages.html:8
+#, python-format
+msgid ""
+"\n"
+"          This page has an error\n"
+"          "
+msgid_plural ""
+"\n"
+"          This page has %(count)s errors\n"
+"          "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: app/templates/partials/messages.html:32
+msgid "Or please call for advice on one of these numbers:"
+msgstr ""
+
+#: app/templates/partials/messages.html:34
+msgid "England"
+msgstr ""
+
+#: app/templates/partials/messages.html:36
+msgid "Wales"
+msgstr ""
+
+#: app/templates/partials/messages.html:38
+msgid "Northern Ireland"
+msgstr ""
+
+#: app/templates/partials/messages.html:40
+msgid "Translation"
+msgstr ""
+
