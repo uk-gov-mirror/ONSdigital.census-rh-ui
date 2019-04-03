@@ -1,14 +1,10 @@
-# Welsh translations for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-02 11:04+0100\n"
-"PO-Revision-Date: 2019-04-02 12:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: cy\n"
 "Language-Team: cy <LL@li.org>\n"
@@ -21,110 +17,110 @@ msgstr ""
 
 #: app/templates/address-confirmation.html:9
 msgid "Is your address correct?"
-msgstr ""
+msgstr "WELSH Is your address correct?"
 
 #: app/templates/address-confirmation.html:36
 #: app/templates/address-confirmation.html:45
 msgid "Or"
-msgstr ""
+msgstr "WELSH Or"
 
 #: app/templates/address-confirmation.html:37
 msgid "Yes, this address is correct"
-msgstr ""
+msgstr "WELSH Yes, this address is correct"
 
 #: app/templates/address-confirmation.html:38
 #: app/templates/address-confirmation.html:47
 msgid "Selecting this will uncheck all other answers"
-msgstr ""
+msgstr "WELSH Selecting this will uncheck all other answers"
 
 #: app/templates/address-confirmation.html:46
 msgid "No, I need to change this address"
-msgstr ""
+msgstr "WELSH No, I need to change this address"
 
 #: app/templates/address-confirmation.html:60
 #: app/templates/address-edit.html:92
 msgid "Save and continue"
-msgstr ""
+msgstr "WELSH Save and continue"
 
 #: app/templates/address-edit.html:22
 msgid "Address Line 1 (Including your house name or number)"
-msgstr ""
+msgstr "WELSH Address Line 1 (Including your house name or number)"
 
 #: app/templates/address-edit.html:34
 msgid "Address Line 2"
-msgstr ""
+msgstr "WELSH Address Line 2"
 
 #: app/templates/address-edit.html:45
 msgid "Town/City"
-msgstr ""
+msgstr "WELSH Town/City"
 
 #: app/templates/address-edit.html:56
 msgid "County"
-msgstr ""
+msgstr "WELSH County"
 
 #: app/templates/address-edit.html:67
 msgid "Postcode"
-msgstr ""
+msgstr "WELSH Postcode"
 
 #: app/templates/address-edit.html:78
 msgid "Country"
-msgstr ""
+msgstr "WELSH Country"
 
 #: app/templates/error.html:8
 msgid "Sorry, something went wrong"
-msgstr ""
+msgstr "WELSH Sorry, something went wrong"
 
 #: app/templates/error.html:11
 msgid "We are experiencing some technical problems."
-msgstr ""
+msgstr "WELSH We are experiencing some technical problems."
 
 #: app/templates/error.html:12
 msgid "Please try again later, or"
-msgstr ""
+msgstr "WELSH Please try again later, or"
 
 #: app/templates/error.html:12
 msgid "contact us"
-msgstr ""
+msgstr "WELSH contact us"
 
 #: app/templates/index.html:9
 msgid "Enter your access code"
-msgstr ""
+msgstr "WELSH Enter your access code"
 
 #: app/templates/index.html:22
 msgid "Your 12 character access code is on the letter we sent you"
-msgstr ""
+msgstr "WELSH Your 12 character access code is on the letter we sent you"
 
 #: app/templates/index.html:25
 msgid "Enter the first four characters of the access code"
-msgstr ""
+msgstr "WELSH Enter the first four characters of the access code"
 
 #: app/templates/index.html:30
 msgid "Enter the next four characters of the access code"
-msgstr ""
+msgstr "WELSH Enter the next four characters of the access code"
 
 #: app/templates/index.html:35
 msgid "Enter the last four characters of the access code"
-msgstr ""
+msgstr "WELSH Enter the last four characters of the access code"
 
 #: app/templates/index.html:51
 msgid "Your information is protected by law and will be kept confidential."
-msgstr ""
+msgstr "WELSH Your information is protected by law and will be kept confidential."
 
 #: app/templates/partials/footer.html:5
 msgid "Legal information"
-msgstr ""
+msgstr "WELSH Legal information"
 
 #: app/templates/partials/footer.html:11
 msgid "About ONS"
-msgstr ""
+msgstr "WELSH About ONS"
 
 #: app/templates/partials/footer.html:17
 msgid "Statistics"
-msgstr ""
+msgstr "WELSH Statistics"
 
 #: app/templates/partials/header.html:8
 msgid "Census Dress Rehearsal 2019 (Banner TBD)"
-msgstr ""
+msgstr "WELSH Census Dress Rehearsal 2019 (Banner TBD)"
 
 #: app/templates/partials/messages.html:8
 #, python-format
@@ -144,21 +140,27 @@ msgstr[4] ""
 
 #: app/templates/partials/messages.html:32
 msgid "Or please call for advice on one of these numbers:"
-msgstr ""
+msgstr "WELSH Or please call for advice on one of these numbers:"
 
 #: app/templates/partials/messages.html:34
 msgid "England"
-msgstr ""
+msgstr "WELSH England"
 
 #: app/templates/partials/messages.html:36
 msgid "Wales"
-msgstr ""
+msgstr "WELSH Wales"
 
 #: app/templates/partials/messages.html:38
 msgid "Northern Ireland"
-msgstr ""
+msgstr "WELSH Northern Ireland"
 
 #: app/templates/partials/messages.html:40
 msgid "Translation"
-msgstr ""
+msgstr "WELSH Translation"
+
+#~ msgid "This page has an error"
+#~ msgstr "WELSH This page has an error"
+
+#~ msgid "This page has %(count)s errors"
+#~ msgstr "WELSH This page has %(count)s errors"
 
