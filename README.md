@@ -91,7 +91,7 @@ po2csv app/translations/cy/LC_MESSAGES/messages.po app/translations/static-cy.cs
 
 To convert back to a .po file:
 ```
-csv2po app.translations/static-cy.csv app/translations/cy/LC_MESSAGES/messages.po
+csv2po app/translations/static-cy.csv app/translations/cy/LC_MESSAGES/messages.po
 ```
 
 *Important:* There are some encoding issues when opening the .csv file in Excel. Opening in Google sheets and saving as a .xslx file resolves this.
